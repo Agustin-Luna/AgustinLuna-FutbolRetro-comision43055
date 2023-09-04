@@ -1,0 +1,29 @@
+header{
+    @include flex (100%, none, space-between, center, none, 4px 15px)
+}
+
+header{
+    background-color: $color-backgrund;
+}
+
+.titulo{
+    @include flex (100%, none, start, center,none, none)
+}
+
+.navbar{
+    li{
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: $letras-color;
+        }
+    }
+}
+
+.logo{
+    display: flex;
+    width: 15%;
+    justify-content: start;
+    align-items: center;
+}
+

@@ -1,0 +1,14 @@
+footer{
+    @include flex (100%, none, space-between, center, none, none)
+}
+footer{
+    background-color:  lightgray;  
+}
+
+.horario{
+    font-size: 20px; 
+}
+
+.redes{
+    @include flex (none, none, end, center, .625rem, none)
+}

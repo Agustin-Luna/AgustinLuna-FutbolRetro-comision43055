@@ -1,0 +1,33 @@
+@media(max-width:768px){
+    /* index.html */
+        header{
+            .titulo{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    
+        footer{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+    /* argentina.html */
+        body{
+            .cards{
+                display: grid;
+                width: 100%;
+                grid-template-columns: repeat(2, 1fr);
+                gap: .625rem;
+                margin:0%;
+                padding: 10px;
+            }
+        }
+    
+        footer{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
